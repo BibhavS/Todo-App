@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+ }
+
+.header{
+    min-height: 50vh;
+}
+
+.headline h2{
+    font-size: 1.2rem;
+ }
+
+.nav-items a{
+    font-size: 0.8rem;
+}
+.nav-items{
+    display:flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    align-items:end
+ }
+
+.logo{
+    font-size: 1.3rem;
+}
+
+.container h2{
+    font-size: 1.2rem;
+}
+
+.section-todo{
+    margin-top: 3rem;
+}
+
+.todo-list{
+    font-size: 0.8rem;
+}
+
+.form-todo input[type="text"]{
+    width:80%;
+    padding: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.form-todo input[type="submit"]{
+    width: 15%;
+    margin-left: 1.2rem;
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.todo-btn{
+    font-size: 0.6rem;
+    padding:0.4rem 0.6rem;
+}
+
+.section-signup{
+    font-size: 0.8rem;
+}
+
+.signup-form input{
+    padding: 0.2rem;
+}
+
+.signup-btn{
+    padding: 0.6rem 1rem;
+    margin-top: 0.8rem;
+    font-size: 0.8rem;
+}
